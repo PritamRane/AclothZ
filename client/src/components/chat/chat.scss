@@ -1,0 +1,68 @@
+$sub-color: grey;
+$main-color: black;
+
+@mixin shrinkLabel {
+    top: -14px;
+    font-size: 12px;
+    color: $main-color;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+ 
+  .chat-header{
+    backdrop-filter: blur(4px) saturate(89%);
+	-webkit-backdrop-filter: blur(4px) saturate(89%);
+	background-color: rgba(72, 102, 102, 0);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+    
+  }
+  
+  .chat-body .chat-footer{
+   
+    backdrop-filter: blur(4px) saturate(89%);
+	-webkit-backdrop-filter: blur(4px) saturate(89%);
+	background-color: rgba(49, 73, 73, 0);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+  
+  }
+
+  .message-container{
+   
+    backdrop-filter: blur(4px) saturate(89%);
+	-webkit-backdrop-filter: blur(4px) saturate(89%);
+	background-color: rgba(49, 73, 73, 0);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 4px 123px -40px rgba(0, 0, 0, 0.75);
+    
+  }
+
+ 
+.chat-body .chat-footer .message-container {
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    max-width: 120px;
+    background-color: #43a047;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  
